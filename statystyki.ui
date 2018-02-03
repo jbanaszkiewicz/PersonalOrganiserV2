@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Statystyki</class>
+ <widget class="QDialog" name="Statystyki">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tbwyswietlanie">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>721</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Poniedziałekkk</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Wtorek</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Środa</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Czwartek</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Piątek</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Sobota</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Niedziela</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pbPoprzedni">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Poprzedni</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbNastepny">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>10</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Następny</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>441</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
